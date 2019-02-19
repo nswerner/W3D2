@@ -24,7 +24,7 @@ ul li a, figcaption a {
 /* This selector selects only IMMEDIATE (1 level deep) image element children
 of the header element */
 header > img {
-  width: 100px;
+  width: 175px;
 }
 
 /* Selects all elements with the class attribute "ingredients-list" */
@@ -70,5 +70,46 @@ ol li:nth-of-type(2n) {
 
 h2 + .user_review {
     border-top: 1px solid black;
+}
+
+header nav ul {
+  display: flex; 
+  flex-direction: row;
+}
+
+header nav ul a {
+  display: flex; 
+  flex-direction: row;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 75px;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto; 
+}
+
+aside {
+  width: 180px;
+}
+
+section {
+  width: 700px;
+  margin-left: 15px;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.ingredients-list {
+  margin: 15px, 0px, 15px, 0px;
 }
 
